@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function Contador() {
     const [count, setCounter] = useState(0);
+    
     return (
         <section className="container">
             <h1>{count}</h1>
